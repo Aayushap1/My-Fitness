@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness - The best fitness gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">My Fitness</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section id="home" class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                        <p class=" text-center">At THE GYM, our mission is to provide you with the ultimate fitness experience, one that focuses on your specific fitness needs, helps you achieve the results you are after and invigorates your soul. Our Fitness training center is committed to being a unique Fitness training center in india.</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn"><a id="btn" href="#contact">Contact Us</a></button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="membership" class="section2">
+                <h1 class="text-center my-2">Membership Pricing</h1>
+                <p class="my-2"><i>If you're looking to join a supportive,welcoming gym community,<br>
+                    with people of all fitness levels who want to see you succeed,you've come to the right place.</i></p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Free Trial</h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>0 personal trainers</li>
+                            <li>0 meal/day</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Monthly</h2>
+                        <ul>
+                            <li class="highlighted">₹1500/month</li>
+                            <li>1 personal trainers</li>
+                            <li>2 meal/day</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Annual</h2>
+                        <ul>
+                            <li class="highlighted">₹15000/year </li>
+                            <li>2 personal trainers</li>
+                            <li>4 meal/day</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Free Trial</th>
+                          <th>Monthly</th>
+                          <th>Annual</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Common Trainer</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Personal Trainer</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Gym equipments</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Supplements</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Diet plans</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Extra support</th>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </section>
+            <hr>
+            <section id="about" class="section3">
+                <h1 class="text-center my-2">About</h1>
+                <h2 class="text-center my-2">Take care of your body. It's the only place you have to live.</h2>
+                <p class="my-2">Welcome to THE GYM, the latest and modern fitness clubs in New Delhi India Located at Pitampura, Rajouri Garden, Patel Nagar, Vikas Puri, Janak Puri, Model Town, Dayanand Vihar, Punjabi Bagh, Malviya Nagar and Paschim Vihar.</p>
+
+                <p class="my-2">THE GYM is a fitness club brand that specializes on the prestigious market segment of business professionals and the working professionals. With our dedication in bringing you the latest fitness technologies, THE GYM is equipped with many hi-tech equipment and state-of-the art fitness gadgets. Our professional personal trainers and trained helpers dedication will ensure that you receive the appropriate fitness program, customized to your fitness and health needs. We currently have the highest trainers to members ratio in our industry. Our members enjoy our private yet classy environment and this will ensure that you exercise in utmost privacy and luxury. At THE GYM, we proudly fuse fitness with fineness; because here, fitness is a privilege. </p>
+            </section>
+            <hr>
+            <section id="contact" class="section3">
+                <h1 class="text-center my-2">Contact US</h1>
+                <form >
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id=""email name=""email><br><br>
+                    <button type="button" onclick="alert('Submitted successfully !!!')">SUBMIT</button>
+                  </form>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; MyFitness.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
